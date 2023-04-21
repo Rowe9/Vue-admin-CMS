@@ -9,16 +9,7 @@
 // console.log(import.meta.env.PROD) // 是否生产环境
 // console.log(import.meta.env.SSR) // 是否是服务器端渲染(server side render)
 
-// let BASE_URL = ''
-// if (import.meta.env.PROD) {
-//   // 生产环境
-//   BASE_URL =
-//     'https://www.fastmock.site/mock/a284f10a88e25e38f3941644b118e775/api'
-// } else {
-//   // 开发环境
-//   BASE_URL =
-//     'https://www.fastmock.site/mock/a284f10a88e25e38f3941644b118e775/api'
-// }
+
 
 let BASE_URL = ''
 if (import.meta.env.PROD) {
@@ -29,27 +20,8 @@ if (import.meta.env.PROD) {
   BASE_URL = 'http://123.207.32.32:5000'
 }
 
-// codermie
-// let BASE_URL = ''
-// if (import.meta.env.PROD) {
-//   // 生产环境
-//   BASE_URL = 'http://111.230.245:8880'
-// } else {
-//   // 开发环境
-//   BASE_URL = 'http://111.230.245:8880'
-// }
 
-// fastmock
-// let BASE_URL = ''
-// if (import.meta.env.PROD) {
-//   // 生产环境
-//   BASE_URL =
-//     'https://www.fastmock.site/mock/a284f10a88e25e38f3941644b118e775/api'
-// } else {
-//   // 开发环境
-//   BASE_URL =
-//     'https://www.fastmock.site/mock/a284f10a88e25e38f3941644b118e775/api'
-// }
+
 
 // console.log(BASE_URL)
 
